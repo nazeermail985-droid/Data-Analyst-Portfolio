@@ -29,5 +29,5 @@ Welcome to my portfolio! This repository contains hands-on projects demonstratin
 
 ## Contact
 
-- LinkedIn: *(Add your LinkedIn URL)*
-- Email: *(Add your email)*
+- LinkedIn: *https://www.linkedin.com/in/nazeer-shaik985/*
+- Email: *nazeermail985@gmail.com*
