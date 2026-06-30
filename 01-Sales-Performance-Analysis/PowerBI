@@ -1,1 +1,29 @@
+Total Sales =
+SUM(Orders[Sales])
 
+Total Profit =
+SUM(Orders[Profit])
+
+Total Orders =
+COUNT(Orders[OrderID])
+
+Total Quantity =
+SUM(Orders[Quantity])
+
+Profit Margin =
+DIVIDE([Total Profit],[Total Sales])
+
+Average Order Value =
+DIVIDE([Total Sales],[Total Orders])
+
+Sales YTD =
+TOTALYTD([Total Sales],Orders[Order Date])
+
+Profit YTD =
+TOTALYTD([Total Profit],Orders[Order Date])
+
+Sales LY =
+CALCULATE([Total Sales],SAMEPERIODLASTYEAR(Orders[Order Date]))
+
+Sales Growth % =
+DIVIDE(([Total Sales]-[Sales LY]),[Sales LY])
